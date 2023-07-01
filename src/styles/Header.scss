@@ -1,0 +1,21 @@
+@import './General.scss';
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+
+li a, .logo {
+    text-decoration: none;
+}
+
