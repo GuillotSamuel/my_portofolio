@@ -1,4 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #51733f;
+  font-family: "Prata", serif;
+}
+
+button, .button2 {
+  font-family: "Prata", serif;
+  color: #51733f;
+}
+
+.line {
+  width: 100%;
+  border-top: 2px solid black;
+}
+
+.contentContainer {
+  padding: 2vw 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  width: 100%;
+}
+
 header {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 2vw 0vw 2vw;
+  font-size: 1.7vw;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+
+.headerContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -7,12 +55,24 @@ header {
 ul {
   display: flex;
   flex-direction: row;
+  gap: 1vw;
 }
 
 li {
   list-style: none;
 }
 
-li a, .logo {
+li a,
+.logo {
   text-decoration: none;
+  color: black;
+  font-family: "Prata", serif;
+}
+
+li a {
+  transition: color 0.3s ease-in-out;
+}
+
+li a:hover {
+  color: #51733f;
 }/*# sourceMappingURL=Header.css.map */

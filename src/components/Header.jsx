@@ -5,20 +5,30 @@ import "../styles/Header.css";
 export default function Header() {
   return (
     <header>
-      <a href="#" className="logo">
-        SAM.
-      </a>
-      <ul>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Works</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
+      <div className="headerContainer">
+        {" "}
+        <a href="#" className="logo">
+          SAM.
+        </a>
+        <ul>
+          <li>
+            <a href="#" className="headerButton">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#" className="headerButton">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#" className="headerButton">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="line"></div>
     </header>
   );
 }

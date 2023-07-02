@@ -1,21 +1,48 @@
-@import './General.scss';
+@import "./General.scss";
 
 header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    padding: 1vw 2vw 0vw 2vw;
+    font-size: max(1.7vw);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    backdrop-filter: blur(7px);
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
-li a, .logo {
-    text-decoration: none;
+li a,
+.logo {
+  text-decoration: none;
+  color: $title-color;
+  font-family: $accentuation-font;
+}
+
+li a {
+  transition: color 0.3s ease-in-out;
+}
+
+li a:hover {
+  color: $main-color;
 }
 

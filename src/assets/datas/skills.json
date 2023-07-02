@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "title": "Front-end",
+    "skills": [
+      "HTML",
+      "CSS",
+      "React",
+      "SASS",
+      "Javascript",
+      "Bootstrap",
+      "Tailwind"
+    ]
+  },
+  {
+    "id": "02",
+    "title": "Back-end",
+    "skills": [
+      "Node JS",
+      "MySQL",
+      "MongoDB",
+      "PHP",
+      "Javascript",
+      "C"
+    ]
+  },
+  {
+    "id": "03",
+    "title": "Tools",
+    "skills": [
+      "Github",
+      "Postman",
+      "Visual Studio Code",
+      "CLion",
+      "MongoDB",
+      "Figma",
+      "Procreate"
+    ]
+  },
+  {
+    "id": "04",
+    "title": "Finance",
+    "skills": [
+      "Finance",
+      "Accounting",
+      "Auditing",
+      "Banking"
+    ]
+  }
+]

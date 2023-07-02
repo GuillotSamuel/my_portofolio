@@ -1,0 +1,53 @@
+@import "./General.scss";
+
+.presentationContainer {
+    padding: 0 6vw;
+    background-image: linear-gradient(to bottom, $secondary-color, $third-color);
+}
+
+.sloganContainer {
+    padding-top: 2.7vw;
+    font-family: $accentuation-font;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vw
+}
+
+.slogan {
+    font-size: 5vw;
+    width: 100%;
+}
+
+#slogan1 {
+    padding-left: 27%;
+}
+
+#slogan2 {
+    padding-right: 27%;
+    text-align: right;
+}
+
+.presentationContainer2 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4vw;
+}
+
+.presentationContainer3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    width: 50%;
+}
+
+.sloganText1 {
+    font-size: 1.8vw;
+}
+
+.sloganText2 {
+    font-size: 1.4vw;
+}
+

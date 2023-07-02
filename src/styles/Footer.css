@@ -1,1 +1,32 @@
-/*# sourceMappingURL=Footer.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #51733f;
+  font-family: "Prata", serif;
+}
+
+button, .button2 {
+  font-family: "Prata", serif;
+  color: #51733f;
+}
+
+.line {
+  width: 100%;
+  border-top: 2px solid black;
+}
+
+.contentContainer {
+  padding: 2vw 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  width: 100%;
+}/*# sourceMappingURL=Footer.css.map */

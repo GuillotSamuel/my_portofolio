@@ -4,7 +4,7 @@ import "../styles/Skills.css";
 export default function Skills() {
   return (
     <div className="skillsContainer">
-      <h1>My skills</h1>
+      <h1>Skills</h1>
       <div className="skillsCard">
         <h2>Front-end</h2>
         <ul className="skillsList">
@@ -25,8 +25,6 @@ export default function Skills() {
           <li>MongoDB</li>
           <li>PHP</li>
           <li>Javascript</li>
-          <li>Bootstrap</li>
-          <li>Tailwind</li>
         </ul>
       </div>
       <div className="skillsCard">
