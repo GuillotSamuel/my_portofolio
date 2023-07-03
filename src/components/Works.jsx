@@ -6,6 +6,7 @@ export default function Works() {
     return (
       <div className="worksContainer">
         <h1>Projects</h1>
+        <div class="line lineContent"></div>
         <ProjectCard />
       </div>
     );

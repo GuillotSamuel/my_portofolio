@@ -18,10 +18,12 @@ function App() {
         <div className="contentContainer">
           <Skills />
           <Works />
-          <Contact />
         </div>
       </body>
+      <div className="contactFooterContainer">
+      <Contact />
       <Footer />
+      </div>
     </div>
   );
 }

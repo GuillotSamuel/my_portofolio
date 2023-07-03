@@ -1,1 +1,24 @@
-@import './General.scss';
+@import "./General.scss";
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.linksFooterContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.footerText, .footerLinks {
+  font-family: $accentuation-font;
+  color: $font-color;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+.footerLinks:hover {
+  color: $main-color;
+}

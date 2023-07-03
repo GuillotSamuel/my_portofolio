@@ -1,1 +1,45 @@
 @import "./General.scss";
+
+.projectCardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.projectCard {
+  width: 100%;
+  background-color: pink;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.workIllustration {
+  width: 50%;
+  background-color: red;
+}
+
+.projectCardContainer2 {
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.workTitle {
+  font-family: $accentuation-font;
+}
+
+.workYear {
+    font-family: $accentuation-font;
+}
+
+.workWebsiteLink {
+    color: $font-color;
+}
+
+.workWebsiteLink:hover {
+    color: $main-color;
+}

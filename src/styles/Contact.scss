@@ -1,0 +1,30 @@
+@import "./General.scss";
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.contactContainer3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    font-family: $accentuation-font;
+}
+
+.contactSlogan {
+
+}
+
+.emailLink {
+    color: $font-color;
+}
+
+.emailLink:hover {
+    color: $main-color;
+}

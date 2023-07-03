@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Presentation.css";
+import CVFile from "../assets/documents/CV_SG.pdf";
+import portraitSG from "../assets/pictures/portraitSG.webp";
 
 export default function Presentation() {
   return (
@@ -13,11 +15,17 @@ export default function Presentation() {
         </div>
       </div>
       <div className="presentationContainer2">
-        <div className="presentationContainer3"></div>
+        <div className="presentationContainer4">
+          <img
+            src={portraitSG}
+            alt="Samuel Guillot Portrait"
+            className="portraitSG"
+          />
+        </div>
         <div className="presentationContainer3">
           <p className="sloganText1">
-            I'm Samuel Guillot, a French full-stack developer. Currently, I
-            divide my time between the French Alps and Paris.
+            Hi! I'm Samuel, a French full-stack developer. Currently, I divide
+            my time between the French Alps and Paris.
           </p>
           <p className="sloganText2">
             For the past 7 years, I have been working in finance and accounting.
@@ -31,7 +39,14 @@ export default function Presentation() {
             realm. It's an exciting opportunity to combine my passion and skills
             in the world of visuals and the digital domain!
           </p>
-          <a href="#" classname="button2" id="cvButton">Dowload my CV</a>
+          <a
+            href={CVFile}
+            download="CV_Samuel_Guillot.pdf"
+            classname="button2"
+            id="cvButton"
+          >
+            Dowload my CV
+          </a>
         </div>
       </div>
     </div>

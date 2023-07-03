@@ -2,6 +2,7 @@
   {
     "id": "01",
     "title": "Front-end",
+    "summary":"",
     "skills": [
       "HTML",
       "CSS",
@@ -15,6 +16,7 @@
   {
     "id": "02",
     "title": "Back-end",
+    "summary":"",
     "skills": [
       "Node JS",
       "MySQL",
@@ -27,6 +29,7 @@
   {
     "id": "03",
     "title": "Tools",
+    "summary":"",
     "skills": [
       "Github",
       "Postman",
@@ -40,6 +43,7 @@
   {
     "id": "04",
     "title": "Finance",
+    "summary":"",
     "skills": [
       "Finance",
       "Accounting",

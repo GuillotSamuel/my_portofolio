@@ -1,0 +1,29 @@
+@import "./General.scss";
+
+.skillCardContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.skillCard {
+    width: 25%;
+    background-color: $secondary-color;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.skillTitle {
+    font-family: $accentuation-font;
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    
+}

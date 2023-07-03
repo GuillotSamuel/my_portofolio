@@ -11,6 +11,7 @@
 h1 {
   color: #51733f;
   font-family: "Prata", serif;
+  text-transform: uppercase;
 }
 
 button, .button2 {
@@ -23,6 +24,10 @@ button, .button2 {
   border-top: 2px solid black;
 }
 
+.lineContent {
+  margin-bottom: 2vw;
+}
+
 .contentContainer {
   padding: 2vw 2vw;
   display: flex;
@@ -31,53 +36,81 @@ button, .button2 {
   width: 100%;
 }
 
+.contactFooterContainer {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, white, rgb(208, 212, 158));
+  padding: 0 2vh 7vh;
+}
+
 .presentationContainer {
   padding: 0 6vw;
-  background-image: linear-gradient(to bottom, rgb(208, 212, 158), rgb(251, 251, 248));
+  /*   background: linear-gradient(to bottom, $secondary-color, white);
+  */
+  background-image: url();
 }
 
 .sloganContainer {
-  padding-top: 2.7vw;
+  padding-top: 3vh;
   font-family: "Prata", serif;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 40vw;
+  height: 50vh;
 }
 
 .slogan {
-  font-size: 5vw;
+  font-size: 12vh;
   width: 100%;
 }
 
 #slogan1 {
-  padding-left: 27%;
+  padding-left: 0;
 }
 
 #slogan2 {
-  padding-right: 27%;
-  text-align: right;
+  padding-left: 0;
 }
 
 .presentationContainer2 {
   display: flex;
   flex-direction: row;
   padding-bottom: 4vw;
+  justify-content: space-between;
 }
 
 .presentationContainer3 {
   display: flex;
   flex-direction: column;
-  gap: 2.5vw;
+  gap: 2.5vh;
+  width: 50%;
+}
+
+.presentationContainer3 {
   width: 50%;
 }
 
 .sloganText1 {
-  font-size: 1.8vw;
+  font-size: 2.5vw;
 }
 
 .sloganText2 {
-  font-size: 1.4vw;
+  font-size: 1.8vw;
+}
+
+#cvButton {
+  color: black;
+}
+
+#cvButton:hover {
+  color: #51733f;
+}
+
+.portraitSG {
+  filter: grayscale(100%);
+  height: 26vw;
+  width: 26vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=Presentation.css.map */

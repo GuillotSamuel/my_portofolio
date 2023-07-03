@@ -11,6 +11,7 @@
 h1 {
   color: #51733f;
   font-family: "Prata", serif;
+  text-transform: uppercase;
 }
 
 button, .button2 {
@@ -23,10 +24,20 @@ button, .button2 {
   border-top: 2px solid black;
 }
 
+.lineContent {
+  margin-bottom: 2vw;
+}
+
 .contentContainer {
   padding: 2vw 2vw;
   display: flex;
   flex-direction: column;
   gap: 2vw;
   width: 100%;
+}
+
+.contactFooterContainer {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, white, rgb(208, 212, 158));
+  padding: 0 2vh 7vh;
 }/*# sourceMappingURL=Skills.css.map */

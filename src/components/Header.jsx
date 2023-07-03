@@ -8,7 +8,7 @@ export default function Header() {
       <div className="headerContainer">
         {" "}
         <a href="#" className="logo">
-          SAM.
+          S. Guillot
         </a>
         <ul>
           <li>
