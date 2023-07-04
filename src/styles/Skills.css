@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
   font-family: "Open Sans", sans-serif;
 }
@@ -24,15 +28,9 @@ button, .button2 {
   border-top: 2px solid black;
 }
 
-.lineContent {
-  margin-bottom: 2vw;
-}
-
 .contentContainer {
-  padding: 2vw 2vw;
   display: flex;
   flex-direction: column;
-  gap: 2vw;
   width: 100%;
 }
 
@@ -40,4 +38,14 @@ button, .button2 {
   height: 100vh;
   background-image: linear-gradient(to bottom, white, rgb(208, 212, 158));
   padding: 0 2vh 7vh;
+}
+
+.skillsContainer {
+  height: 100vh;
+  background-color: rgb(251, 251, 248);
+  padding: 5%;
+}
+
+.skillsContainer h1 {
+  margin-bottom: 2%;
 }/*# sourceMappingURL=Skills.css.map */

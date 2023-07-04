@@ -1,2 +1,11 @@
 @import "./General.scss";
 
+.skillsContainer {
+  height: 100vh;
+  background-color: $third-color;
+  padding: 5%;
+}
+
+.skillsContainer h1 {
+  margin-bottom: 2%;
+}

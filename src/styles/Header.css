@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
   font-family: "Open Sans", sans-serif;
 }
@@ -24,15 +28,9 @@ button, .button2 {
   border-top: 2px solid black;
 }
 
-.lineContent {
-  margin-bottom: 2vw;
-}
-
 .contentContainer {
-  padding: 2vw 2vw;
   display: flex;
   flex-direction: column;
-  gap: 2vw;
   width: 100%;
 }
 
@@ -45,7 +43,7 @@ button, .button2 {
 header {
   display: flex;
   flex-direction: column;
-  padding: 1vw 2vw 0vw 2vw;
+  padding: 2% 5% 0vw 5%;
   font-size: 1.7vw;
   width: 100%;
   position: fixed;

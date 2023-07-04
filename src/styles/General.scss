@@ -1,7 +1,10 @@
 $main-color: #51733f;
 $secondary-color: rgb(208, 212, 158);
 $third-color: rgb(251, 251, 248);
+$white-color: white;
+
 $title-color: black;
+
 $font-color: black;
 $accentuedFont-color: red;
 $fadedFont-color: red;
@@ -14,6 +17,10 @@ $accentuation-font: 'Prata', serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 .App {
@@ -36,15 +43,9 @@ button, .button2 {
   border-top: 2px solid $title-color;
 }
 
-.lineContent {
-  margin-bottom: 2vw;
-}
-
 .contentContainer {
-  padding: 2vw 2vw;
   display: flex;
   flex-direction: column;
-  gap: 2vw;
   width: 100%;
 }
 

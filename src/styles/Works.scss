@@ -1,0 +1,11 @@
+@import "./General.scss";
+
+.worksContainer {
+    height: 100vh;
+    background-color: $secondary-color;
+    padding: 5%;
+}
+
+.worksContainer h1 {
+    margin-bottom: 2%;
+}

@@ -1,1 +1,51 @@
-/*# sourceMappingURL=Works.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #51733f;
+  font-family: "Prata", serif;
+  text-transform: uppercase;
+}
+
+button, .button2 {
+  font-family: "Prata", serif;
+  color: #51733f;
+}
+
+.line {
+  width: 100%;
+  border-top: 2px solid black;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contactFooterContainer {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, white, rgb(208, 212, 158));
+  padding: 0 2vh 7vh;
+}
+
+.worksContainer {
+  height: 100vh;
+  background-color: rgb(208, 212, 158);
+  padding: 5%;
+}
+
+.worksContainer h1 {
+  margin-bottom: 2%;
+}/*# sourceMappingURL=Works.css.map */

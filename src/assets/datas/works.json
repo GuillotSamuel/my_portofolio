@@ -2,10 +2,11 @@
   {
     "id": "01",
     "title": "Booki",
-    "illustration": "booki1",
+    "illustration": ["booki1"],
     "summary": "Developing the frontend of the Booki website using HTML and CSS technologies. The website is designed to be responsive.",
     "year": "2023",
-    "websiteLink": "https://guillotsamuel.github.io/booki-starter-code-master/"
+    "websiteLink": "https://guillotsamuel.github.io/booki-starter-code-master/",
+    "category": ["Html", "CSS"]
   },
   {
     "id": "02",
@@ -13,6 +14,25 @@
     "illustration": ["kasa1", "kasa2", "kasa3"],
     "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
     "year": "2023",
-    "websiteLink": "linkTest"
+    "websiteLink": "linkTest",
+    "category": ["React", "Sass"]
+  },
+  {
+    "id": "03",
+    "title": "test",
+    "illustration": ["kasa1", "kasa2", "kasa3"],
+    "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
+    "year": "2023",
+    "websiteLink": "linkTest",
+    "category": ["React", "Sass"]
+  },
+  {
+    "id": "04",
+    "title": "test2",
+    "illustration": ["kasa1", "kasa2", "kasa3"],
+    "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
+    "year": "2023",
+    "websiteLink": "linkTest",
+    "category": ["React", "Sass"]
   }
 ]
