@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "../styles/Contact.css";
 
 export default function Contact() {
-/*   const [formData, setFormData] = useState({
+  /* const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
@@ -16,21 +17,28 @@ export default function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // À envoyer sur un serveur.
-    console.log(formData);
+    axios
+    .post("http://localhost:5678/send-email", formData)
+    .then((response) => {
+      console.log(response.data); 
+    })
+    .catch((error) => {
+      console.error(error);
+    });
   }; */
 
-  const email = 'samuelguillot75@gmail.com';
+  const email = "samuelguillot75@gmail.com";
 
   return (
     <div className="contactContainer">
       <div className="contactContainer2"></div>
-{/*       <h1>Contact</h1>
-      <div class="line lineContent"></div> */}
       <div className="contactContainer3">
         <span classname="contactSlogan">
-          Feel free to contact me{/*  with this form or */} by{" "}
-          <a href={`mailto:${email}`} className="emailLink">email</a>!
+          Feel free to contact me{/*   with this form or */} by{" "}
+          <a href={`mailto:${email}`} className="emailLink">
+            email
+          </a>
+          !
         </span>
         {/* <div className="formContainer">
           <form onSubmit={handleSubmit}>
@@ -77,7 +85,9 @@ export default function Contact() {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="submitButton">Submit</button>
+            <button type="submit" className="submitButton">
+              Submit
+            </button>
           </form>
         </div> */}
       </div>

@@ -8,18 +8,27 @@ export default function SkillCard() {
       {Skills.map((skill) => {
         return (
           <div className="skillCard" key={skill.id}>
-            <h2 className="skillTitle">{skill.title}</h2>
-            <p>{skill.summary}</p>
-            <ul className="skillsList">
-              {skill.skills.map((skill2, index) => (
-                <li className="skill" key={index}>
-                  {skill2}
-                </li>
-              ))}
-            </ul>
+            <i className={`fa ${skill.illustration} skillIllustration`}></i>
+
+            <div className="skillInfos">
+              <h2 className="skillTitle">{skill.title}</h2>
+
+              <p>{skill.summary}</p>
+
+              <ul className="skillsList">
+                {skill.skills.map((skill2, index) => (
+                  <li className="skill" key={index}>
+                    {skill2}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         );
       })}
     </div>
   );
 }
+
+
+

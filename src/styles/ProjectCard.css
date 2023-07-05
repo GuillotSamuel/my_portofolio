@@ -13,31 +13,51 @@
 }
 
 h1 {
-  color: #51733f;
-  font-family: "Prata", serif;
+  color: #381fb4;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  z-index: 100;
+}
+
+h1, h2 {
+  font-weight: 700;
+  background: linear-gradient(120deg, #95ccff 0%, #381fb4 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 button, .button2 {
-  font-family: "Prata", serif;
-  color: #51733f;
+  font-family: "Open Sans", sans-serif;
+  color: #381fb4;
 }
 
 .line {
   width: 100%;
-  border-top: 2px solid black;
+  border-top: 2px solid #b8c0fb;
 }
 
-.contentContainer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.generalContentContainer {
+  padding: 80px 80px;
 }
 
 .contactFooterContainer {
   height: 100vh;
-  background-image: linear-gradient(to bottom, white, rgb(208, 212, 158));
+  background-image: linear-gradient(to bottom, white, #b8c0fb);
   padding: 0 2vh 7vh;
+}
+
+.fa-brands {
+  color: #381fb4;
+  transition: box-shadow 0.2s ease;
+}
+
+.fa-brands:hover {
+  box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.4784313725), 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
 }
 
 .projectCardContainer {
@@ -54,9 +74,10 @@ button, .button2 {
   display: flex;
   flex-direction: row;
   height: 100%;
-  position: relative;
   transition: transform 0.3s ease-in-out;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+  background-color: white;
 }
 
 .projectCard:hover {
@@ -64,27 +85,29 @@ button, .button2 {
   cursor: pointer;
 }
 
+.workDescription {
+  position: relative;
+}
+
 .workIllustration {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  background-color: white;
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .workTitle {
-  position: absolute;
   z-index: 10;
-  font-family: "Prata", serif;
-  font-size: 100px;
-  left: 1%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 6vw;
+  text-transform: uppercase;
+  position: absolute;
+  right: 5%;
 }
 
 .workCategory {
   position: absolute;
-  z-index: 10;
-  top: 90%;
-  left: 3%;
+  right: 20px;
+  bottom: 5%;
 }
 
 .overlay {

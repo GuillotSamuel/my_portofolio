@@ -3,7 +3,7 @@
 header {
     display: flex;
     flex-direction: column;
-    padding: 2% 5% 0vw 5%;
+    padding: 1% 5% 0 5%;
     font-size: max(1.7vw);
     width: 100%;
     position: fixed;
@@ -11,7 +11,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 9999;
-    backdrop-filter: blur(7px);
+    background-color: $main-color;
 }
 
 .headerContainer {
@@ -34,15 +34,12 @@ li {
 li a,
 .logo {
   text-decoration: none;
-  color: $title-color;
+  color: $softFont-color;
   font-family: $accentuation-font;
-}
-
-li a {
   transition: color 0.3s ease-in-out;
 }
 
-li a:hover {
-  color: $main-color;
+li a:hover, .logo:hover {
+  color: $fadedFont-color;
 }
 

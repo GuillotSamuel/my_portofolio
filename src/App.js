@@ -4,6 +4,7 @@ import "./styles/General.css";
 
 import Header from "./components/Header";
 import Presentation from "./components/Presentation";
+import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
@@ -15,14 +16,13 @@ function App() {
       <Header />
       <body>
         <Presentation />
-        <div className="contentContainer">
-          <Skills />
-          <Works />
-        </div>
+        <AboutMe />
+        <Skills />
+        <Works />
       </body>
       <div className="contactFooterContainer">
-      <Contact />
-      <Footer />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 [
   {
     "id": "01",
+    "illustration": "fa fa-code fa-4x",
     "title": "Front-end",
     "summary":"",
     "skills": [
@@ -15,6 +16,7 @@
   },
   {
     "id": "02",
+    "illustration": "fa fa-server fa-4x",
     "title": "Back-end",
     "summary":"",
     "skills": [
@@ -28,21 +30,8 @@
   },
   {
     "id": "03",
-    "title": "Tools",
-    "summary":"",
-    "skills": [
-      "Github",
-      "Postman",
-      "Visual Studio Code",
-      "CLion",
-      "MongoDB",
-      "Figma",
-      "Procreate"
-    ]
-  },
-  {
-    "id": "04",
     "title": "Finance",
+    "illustration": "fa fa-money-bill-1 fa-4x",
     "summary":"",
     "skills": [
       "Finance",

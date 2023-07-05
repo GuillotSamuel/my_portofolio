@@ -3,7 +3,8 @@
 .presentationContainer {
   padding: 0 6vw;
   height: 100vh;
-  background-color: $secondary-color;
+  background: $secondary-color;
+  background-image: url(../assets/backgrounds/noise.png);
   position: relative;
   width: 100%;
 }
@@ -36,31 +37,3 @@
   z-index: 1;
 }
 
-.presentationContainer3 {
-  z-index: 3;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: $white-color;
-  top: 55%;
-  right: 5%;
-  left: 30%;
-  padding: 2%;
-}
-
-.sloganText1 {
-  font-size: 25px;
-}
-
-.sloganText2 {
-  font-size: 19px;
-}
-
-#cvButton {
-  color: $font-color;
-}
-
-#cvButton:hover {
-  color: $main-color;
-}

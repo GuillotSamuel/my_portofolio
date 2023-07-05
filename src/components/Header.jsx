@@ -28,7 +28,6 @@ export default function Header() {
           </li>
         </ul>
       </div>
-      <div className="line"></div>
     </header>
   );
 }

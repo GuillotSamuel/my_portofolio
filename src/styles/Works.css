@@ -13,37 +13,55 @@
 }
 
 h1 {
-  color: #51733f;
-  font-family: "Prata", serif;
+  color: #381fb4;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  z-index: 100;
+}
+
+h1, h2 {
+  font-weight: 700;
+  background: linear-gradient(120deg, #95ccff 0%, #381fb4 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 button, .button2 {
-  font-family: "Prata", serif;
-  color: #51733f;
+  font-family: "Open Sans", sans-serif;
+  color: #381fb4;
 }
 
 .line {
   width: 100%;
-  border-top: 2px solid black;
+  border-top: 2px solid #b8c0fb;
 }
 
-.contentContainer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.generalContentContainer {
+  padding: 80px 80px;
 }
 
 .contactFooterContainer {
   height: 100vh;
-  background-image: linear-gradient(to bottom, white, rgb(208, 212, 158));
+  background-image: linear-gradient(to bottom, white, #b8c0fb);
   padding: 0 2vh 7vh;
 }
 
+.fa-brands {
+  color: #381fb4;
+  transition: box-shadow 0.2s ease;
+}
+
+.fa-brands:hover {
+  box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.4784313725), 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
+}
+
 .worksContainer {
-  height: 100vh;
-  background-color: rgb(208, 212, 158);
-  padding: 5%;
+  background-color: #b8c0fb;
 }
 
 .worksContainer h1 {

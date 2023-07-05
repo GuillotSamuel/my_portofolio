@@ -2,6 +2,7 @@
   {
     "id": "01",
     "title": "Booki",
+    "cover": "booki1",
     "illustration": ["booki1"],
     "summary": "Developing the frontend of the Booki website using HTML and CSS technologies. The website is designed to be responsive.",
     "year": "2023",
@@ -11,6 +12,7 @@
   {
     "id": "02",
     "title": "Kasa",
+    "cover": "kasa1",
     "illustration": ["kasa1", "kasa2", "kasa3"],
     "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
     "year": "2023",
@@ -20,6 +22,7 @@
   {
     "id": "03",
     "title": "test",
+    "cover": "kasa1",
     "illustration": ["kasa1", "kasa2", "kasa3"],
     "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
     "year": "2023",
@@ -29,6 +32,7 @@
   {
     "id": "04",
     "title": "test2",
+    "cover": "kasa1",
     "illustration": ["kasa1", "kasa2", "kasa3"],
     "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
     "year": "2023",

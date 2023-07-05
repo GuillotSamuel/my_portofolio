@@ -1,0 +1,94 @@
+@import "./General.scss";
+
+.aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: $white-color;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.sloganText1 {
+  font-size: 30px;
+  width: 100%;
+  padding: 0 20%;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+
+.sloganText2 {
+  font-size: 22px;
+  width: 100%;
+  padding: 0 10%;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+
+#cvButton {
+  color: $white-color;
+  background: linear-gradient(120deg, $lightMain-color 0%, $main-color 100%);
+  text-align: center;
+  padding: 12px;
+  width: 230px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 22px;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+  z-index: 100;
+}
+
+#cvButton:hover {
+  box-shadow: 8px 8px 8px #a9a9aa7a;
+  position: relative;
+  z-index: 100;
+}
+
+.aboutMeFooterContainer {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  z-index: 100;
+}
+
+.blob1 {
+  height: 108%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url(../assets/backgrounds/blob1.png);
+  opacity: 0.5;
+  position: absolute;
+  top: -4%;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1688597213 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+
+
+}
+
+.custom-shape-divider-bottom-1688597213 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1688597213 .shape-fill {
+  fill: $third-color;
+}

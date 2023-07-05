@@ -3,23 +3,52 @@
 .skillCardContainer {
     display: flex;
     flex-direction: row;
-    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .skillCard {
-    width: 25%;
-    background-color: $secondary-color;
-    padding: 1vw;
+    width: 400px;
+    height: 550px;
+    padding: 30px 20px; 
+    background-color: $white-color;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
-    gap: 1vw;
+    align-items: center;
+    box-shadow: inset 8px 8px 10px #a9a9aa77,
+    inset 8px 8px 10px #ffffff7e;
+    gap: 30px;
+}
+
+.skillIllustration {
+    height: 150px;
+    width: 150px;
+    background: #f3f3f3;
+    border-radius: 30px;
+    box-shadow: -8px -8px 8px #ffffff7a, 
+    8px 8px 8px #a9a9aa7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, $lightMain-color 0%, $main-color 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skillTitle {
     font-family: $accentuation-font;
+    width: 350px;
+    text-align: center;
 }
 
 .skillsList {
+    width: 350px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }

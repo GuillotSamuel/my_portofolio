@@ -20,12 +20,15 @@ export default function ProjectCard() {
           onClick={() => toggleOverlay(work)}
         >
           <img
-            src={work.illustration}
+            src={require(`../assets/pictures/${work.illustration[0]}.png`)}
             className="workIllustration"
             alt={work.title}
+            key={work.illustration[0]}
           />
-          <h2 className="workTitle">{work.title}</h2>
-          <div className="workCategory">{work.category}</div>
+          <div className="workDescription">
+            <h2 className="workTitle">{work.title}</h2>
+            <div className="workCategory">{work.category}</div>
+          </div>
         </div>
       ))}
 
@@ -34,13 +37,18 @@ export default function ProjectCard() {
           <div className="overlayPopUp">
             {selectedWork && (
               <div className="projectOverlay" key={selectedWork.id}>
-                <img
-                  src={selectedWork.illustration}
-                  className="workIllustrationOverlay"
-                  alt={selectedWork.title}
-                />
+                {selectedWork.illustration.map((imageName) => (
+                  <img
+                    src={require(`../assets/pictures/${imageName}.png`)}
+                    className="workIllustrationOverlay"
+                    alt={selectedWork.title}
+                    key={imageName}
+                  />
+                ))}
                 <h2 className="workTitleOverlay">{selectedWork.title}</h2>
-                <div className="workCategoryOverlay">{selectedWork.category}</div>
+                <div className="workCategoryOverlay">
+                  {selectedWork.category}
+                </div>
               </div>
             )}
           </div>

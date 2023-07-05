@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #381fb4;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  z-index: 100;
+}
+
+h1, h2 {
+  font-weight: 700;
+  background: linear-gradient(120deg, #95ccff 0%, #381fb4 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button, .button2 {
+  font-family: "Open Sans", sans-serif;
+  color: #381fb4;
+}
+
+.line {
+  width: 100%;
+  border-top: 2px solid #b8c0fb;
+}
+
+.generalContentContainer {
+  padding: 80px 80px;
+}
+
+.contactFooterContainer {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, white, #b8c0fb);
+  padding: 0 2vh 7vh;
+}
+
+.fa-brands {
+  color: #381fb4;
+  transition: box-shadow 0.2s ease;
+}
+
+.fa-brands:hover {
+  box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.4784313725), 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
+}
+
+.aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.sloganText1 {
+  font-size: 30px;
+  width: 100%;
+  padding: 0 20%;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+
+.sloganText2 {
+  font-size: 22px;
+  width: 100%;
+  padding: 0 10%;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+
+#cvButton {
+  color: white;
+  background: linear-gradient(120deg, #95ccff 0%, #381fb4 100%);
+  text-align: center;
+  padding: 12px;
+  width: 230px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 22px;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+  z-index: 100;
+}
+
+#cvButton:hover {
+  box-shadow: 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
+  position: relative;
+  z-index: 100;
+}
+
+.aboutMeFooterContainer {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  z-index: 100;
+}
+
+.blob1 {
+  height: 108%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url(../assets/backgrounds/blob1.png);
+  opacity: 0.5;
+  position: absolute;
+  top: -4%;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1688597213 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1688597213 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1688597213 .shape-fill {
+  fill: #f2f2f2;
+}/*# sourceMappingURL=AboutMe.css.map */
