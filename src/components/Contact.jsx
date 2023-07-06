@@ -31,7 +31,6 @@ export default function Contact() {
 
   return (
     <div className="contactContainer">
-      <div className="contactContainer2"></div>
       <div className="contactContainer3">
         <span classname="contactSlogan">
           Feel free to contact me{/*   with this form or */} by{" "}
@@ -90,7 +89,12 @@ export default function Contact() {
             </button>
           </form>
         </div> */}
+
+
+
       </div>
+      <div className="blob3"></div>
+        <div className="blob4"></div>
     </div>
   );
 }

@@ -7,7 +7,7 @@
     "summary": "Developing the frontend of the Booki website using HTML and CSS technologies. The website is designed to be responsive.",
     "year": "2023",
     "websiteLink": "https://guillotsamuel.github.io/booki-starter-code-master/",
-    "category": ["Html", "CSS"]
+    "category": "Html CSS"
   },
   {
     "id": "02",
@@ -17,17 +17,17 @@
     "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
     "year": "2023",
     "websiteLink": "linkTest",
-    "category": ["React", "Sass"]
+    "category": "React Sass"
   },
   {
     "id": "03",
-    "title": "test",
-    "cover": "kasa1",
-    "illustration": ["kasa1", "kasa2", "kasa3"],
-    "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
+    "title": "Carducci",
+    "cover": "carducci1",
+    "illustration": ["carducci1"],
+    "summary": "Optimisation the functionality, search engine optimization, and accessibility of the website, we can improve the code and utilize tools such as Lighthouse and Wave.",
     "year": "2023",
-    "websiteLink": "linkTest",
-    "category": ["React", "Sass"]
+    "websiteLink": "https://github.com/GuillotSamuel/nina-carducci.github.io-master",
+    "category": "Optimisation Referencement Accessibility "
   },
   {
     "id": "04",
@@ -37,6 +37,6 @@
     "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
     "year": "2023",
     "websiteLink": "linkTest",
-    "category": ["React", "Sass"]
+    "category": "React Sass"
   }
 ]

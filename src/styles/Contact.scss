@@ -5,6 +5,10 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
+    padding: 200px 0;
+    position: relative;
+    z-index: 100;
+
 }
 
 .contactContainer3 {
@@ -15,16 +19,57 @@
     align-items: center;
     font-size: 4vw;
     font-family: $accentuation-font;
+    position: relative;
+    z-index: 100;
+
 }
 
 .contactSlogan {
+    font-weight: 700;
+    z-index: 100;
+    position: relative;
 
 }
 
 .emailLink {
     color: $font-color;
+    z-index: 100;
+    position: relative;
+
 }
 
 .emailLink:hover {
     color: $main-color;
+    z-index: 100;
+    position: relative;
 }
+
+.blob3 {
+    height: 30%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url(../assets/backgrounds/blob3.png);
+    opacity: 0.3;
+    position: absolute;
+    top: 70%;
+    left: 68%;
+    z-index: 2;
+    transform: rotate(180deg);
+  }
+
+  .blob4 {
+    height: 120%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url(../assets/backgrounds/blob4.png);
+    opacity: 0.3;
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    z-index: 2;
+    transform: rotate(180deg);
+  }

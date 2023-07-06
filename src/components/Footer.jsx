@@ -8,13 +8,13 @@ export default function Footer() {
       <div className="footerContainer">
         <div className="linksFooterContainer">
           <a href="https://github.com/GuillotSamuel" className="footerLinks">
-            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github fa-2xl"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/samuel-guillot-b0188868/"
             className="footerLinks"
           >
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-linkedin-in fa-2xl"></i>
           </a>
         </div>
         <span className="footerText">Made by Samuel Guillot</span>

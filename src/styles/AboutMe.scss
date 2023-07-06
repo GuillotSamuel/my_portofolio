@@ -18,6 +18,7 @@
   text-align: center;
   position: relative;
   z-index: 100;
+  max-width: 1800px;
 }
 
 .sloganText2 {
@@ -27,6 +28,7 @@
   text-align: center;
   position: relative;
   z-index: 100;
+  max-width: 1800px;
 }
 
 #cvButton {
@@ -57,7 +59,7 @@
 }
 
 .blob1 {
-  height: 108%;
+  height: 100%;
   aspect-ratio: 1/1;
   background-size: cover;
   background-position: center center;
@@ -65,7 +67,7 @@
   background-image: url(../assets/backgrounds/blob1.png);
   opacity: 0.5;
   position: absolute;
-  top: -4%;
+  top: 7%;
   z-index: 2;
   transform: rotate(180deg);
 }

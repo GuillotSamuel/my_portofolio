@@ -46,9 +46,7 @@ button, .button2 {
 }
 
 .contactFooterContainer {
-  height: 100vh;
   background-image: linear-gradient(to bottom, white, #b8c0fb);
-  padding: 0 2vh 7vh;
 }
 
 .fa-brands {
@@ -78,6 +76,7 @@ button, .button2 {
   text-align: center;
   position: relative;
   z-index: 100;
+  max-width: 1800px;
 }
 
 .sloganText2 {
@@ -87,6 +86,7 @@ button, .button2 {
   text-align: center;
   position: relative;
   z-index: 100;
+  max-width: 1800px;
 }
 
 #cvButton {
@@ -117,7 +117,7 @@ button, .button2 {
 }
 
 .blob1 {
-  height: 108%;
+  height: 100%;
   aspect-ratio: 1/1;
   background-size: cover;
   background-position: center center;
@@ -125,7 +125,7 @@ button, .button2 {
   background-image: url(../assets/backgrounds/blob1.png);
   opacity: 0.5;
   position: absolute;
-  top: -4%;
+  top: 7%;
   z-index: 2;
   transform: rotate(180deg);
 }

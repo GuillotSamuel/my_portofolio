@@ -4,21 +4,31 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 50px;
 }
 
 .linksFooterContainer {
   display: flex;
   flex-direction: row;
-  gap: 1vw;
+  gap: 4vw;
 }
 
 .footerText, .footerLinks {
   font-family: $accentuation-font;
-  color: $font-color;
+  background: linear-gradient(120deg, $lightMain-color 0%, $main-color 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
   font-size: 2vh;
+  height: 5vh;
+  padding: 1vh 0;
 }
 
 .footerLinks:hover {
   color: $main-color;
+}
+
+.footerText {
+  font-weight: 700;
 }

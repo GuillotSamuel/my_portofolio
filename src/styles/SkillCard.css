@@ -46,9 +46,7 @@ button, .button2 {
 }
 
 .contactFooterContainer {
-  height: 100vh;
   background-image: linear-gradient(to bottom, white, #b8c0fb);
-  padding: 0 2vh 7vh;
 }
 
 .fa-brands {
@@ -80,6 +78,7 @@ button, .button2 {
   align-items: center;
   box-shadow: inset 8px 8px 10px rgba(169, 169, 170, 0.4666666667), inset 8px 8px 10px rgba(255, 255, 255, 0.4941176471);
   gap: 30px;
+  margin-bottom: 50px;
 }
 
 .skillIllustration {

@@ -46,9 +46,7 @@ button, .button2 {
 }
 
 .contactFooterContainer {
-  height: 100vh;
   background-image: linear-gradient(to bottom, white, #b8c0fb);
-  padding: 0 2vh 7vh;
 }
 
 .fa-brands {

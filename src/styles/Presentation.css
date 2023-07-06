@@ -46,9 +46,7 @@ button, .button2 {
 }
 
 .contactFooterContainer {
-  height: 100vh;
   background-image: linear-gradient(to bottom, white, #b8c0fb);
-  padding: 0 2vh 7vh;
 }
 
 .fa-brands {
@@ -61,40 +59,84 @@ button, .button2 {
 }
 
 .presentationContainer {
-  padding: 0 6vw;
-  height: 100vh;
+  padding: 100px 6vw;
   background: #b8c0fb;
   background-image: url(../assets/backgrounds/noise.png);
-  position: relative;
   width: 100%;
+  display: flex;
+  height: 600px;
 }
 
 .sloganContainer {
   font-family: "Open Sans", sans-serif;
-  position: absolute;
-  top: 15%;
-  right: 5%;
-  width: 100%;
-  z-index: 2;
+  position: relative;
+  width: 60%;
 }
 
 .slogan {
   font-size: 100px;
   width: 100%;
-  text-align: right;
+}
+
+.sloganItem1 {
+  font-weight: 900;
+  font-size: 160px;
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 0px;
+}
+
+.sloganItem2 {
+  font-weight: 700;
+  background: linear-gradient(120deg, #95ccff 0%, #381fb4 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 145px;
+  left: 50px;
+  font-size: 55px;
+}
+
+.sloganItem3 {
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  top: 250px;
+  left: 10px;
+}
+
+.portraitContainer {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .portraitSG {
-  position: absolute;
-  left: 5%;
-  bottom: 35%;
   filter: grayscale(100%);
-  width: 35%;
+  height: 300px;
   max-width: 500px;
   aspect-ratio: 1/1;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-clip-path: circle(50% at 50% 50%);
           clip-path: circle(50% at 50% 50%);
-  z-index: 1;
+  z-index: 10;
+  box-shadow: 8px 8px 10px rgba(169, 169, 170, 0.4666666667), 8px 8px 10px rgba(255, 255, 255, 0.4941176471);
+}
+
+.blob5 {
+  height: 100%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url(../assets/backgrounds/blob5.png);
+  opacity: 0.4;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  z-index: 2;
 }/*# sourceMappingURL=Presentation.css.map */

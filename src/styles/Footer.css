@@ -46,9 +46,7 @@ button, .button2 {
 }
 
 .contactFooterContainer {
-  height: 100vh;
   background-image: linear-gradient(to bottom, white, #b8c0fb);
-  padding: 0 2vh 7vh;
 }
 
 .fa-brands {
@@ -64,21 +62,31 @@ button, .button2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 50px;
 }
 
 .linksFooterContainer {
   display: flex;
   flex-direction: row;
-  gap: 1vw;
+  gap: 4vw;
 }
 
 .footerText, .footerLinks {
   font-family: "Open Sans", sans-serif;
-  color: black;
+  background: linear-gradient(120deg, #95ccff 0%, #381fb4 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
   font-size: 2vh;
+  height: 5vh;
+  padding: 1vh 0;
 }
 
 .footerLinks:hover {
   color: #381fb4;
+}
+
+.footerText {
+  font-weight: 700;
 }/*# sourceMappingURL=Footer.css.map */

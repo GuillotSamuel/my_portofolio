@@ -7,17 +7,21 @@ export default function Presentation() {
     <div className="presentationContainer">
       <div className="sloganContainer">
         <div className="slogan">
-          <div className="sloganItem">Hi! I'm Samuel, a French full-stack developer.</div>
+          <div className="sloganItem1">Full Stack</div>
+          <div className="sloganItem2">Samuel Guillot</div>
+
+          <div className="sloganItem3">Hi! Welcome to my portfolio. I'm a full-stack web developer, and I'm excited to showcase my skills and projects here. Feel free to explore and learn more about my work!</div>
         </div>
       </div>
 
-      <img
-        src={portraitSG}
-        alt="Samuel Guillot Portrait"
-        className="portraitSG"
-      />
-
-      
+      <div className="portraitContainer">
+        <img
+          src={portraitSG}
+          alt="Samuel Guillot Portrait"
+          className="portraitSG"
+        />
+        <div className="blob5"></div>
+      </div>
     </div>
   );
 }

@@ -2,8 +2,29 @@
 
 .worksContainer {
   background-color: $secondary-color;
+  position: relative;
 }
 
 .worksContainer h1 {
   margin-bottom: 2%;
+}
+
+.custom-shape-divider-bottom-1688650861 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1688650861 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1688650861 .shape-fill {
+  fill: #FFFFFF;
 }
