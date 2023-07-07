@@ -4,6 +4,7 @@ import "./styles/General.css";
 
 import Header from "./components/Header";
 import Presentation from "./components/Presentation";
+import Services from "./components/Services";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Works from "./components/Works";
@@ -17,6 +18,7 @@ function App() {
       <body>
         <Presentation />
         <AboutMe />
+        <Services />
         <Skills />
         <Works />
       </body>

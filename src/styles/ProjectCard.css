@@ -24,7 +24,8 @@ h1 {
   padding: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 700;
   background: linear-gradient(120deg, #95ccff 0%, #381fb4 100%);
   background-clip: border-box;
@@ -32,7 +33,8 @@ h1, h2 {
   -webkit-text-fill-color: transparent;
 }
 
-button, .button2 {
+button,
+.button2 {
   font-family: "Open Sans", sans-serif;
   color: #381fb4;
 }
@@ -52,11 +54,6 @@ button, .button2 {
 
 .fa-brands {
   color: #381fb4;
-  transition: box-shadow 0.2s ease;
-}
-
-.fa-brands:hover {
-  box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.4784313725), 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
 }
 
 @media (max-width: 950px) {

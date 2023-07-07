@@ -12,8 +12,8 @@ $accentuedFont-color: #381fb4;
 $fadedFont-color: #b8c0fb;
 $softFont-color: white;
 
-$main-font: 'Open Sans', sans-serif;
-$accentuation-font: 'Open Sans', sans-serif;
+$main-font: "Open Sans", sans-serif;
+$accentuation-font: "Open Sans", sans-serif;
 
 * {
   margin: 0;
@@ -41,7 +41,8 @@ h1 {
   padding: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 700;
   background: linear-gradient(120deg, $lightMain-color 0%, $main-color 100%);
   background-clip: border-box;
@@ -49,9 +50,10 @@ h1, h2 {
   -webkit-text-fill-color: transparent;
 }
 
-button, .button2 {
-    font-family: $accentuation-font;
-    color: $main-color;
+button,
+.button2 {
+  font-family: $accentuation-font;
+  color: $main-color;
 }
 
 .line {
@@ -69,14 +71,7 @@ button, .button2 {
 
 .fa-brands {
   color: $main-color;
-  transition: box-shadow 0.2s ease;
 }
-
-.fa-brands:hover {
-  box-shadow: -8px -8px 8px #ffffff7a, 
-  8px 8px 8px #a9a9aa7a;
-}
-
 
 @media (max-width: 950px) {
   .generalContentContainer {
