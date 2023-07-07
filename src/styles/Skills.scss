@@ -1,31 +1,9 @@
 @import "./General.scss";
 
 .skillsContainer {
-  background-color: $third-color;
+  background-color: $lightSecondary-color;
   display: flex;
   flex-direction: column;
   gap: 50px;
   position: relative;
-}
-
-.custom-shape-divider-bottom-1688597532 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1688597532 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 100px;
-  transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1688597532 .shape-fill {
-  fill: $secondary-color;
 }

@@ -10,7 +10,11 @@ export default function Presentation() {
           <div className="sloganItem1">Full Stack</div>
           <div className="sloganItem2">Samuel Guillot</div>
 
-          <div className="sloganItem3">Hi! Welcome to my portfolio. I'm a full-stack web developer, and I'm excited to showcase my skills and projects here. Feel free to explore and learn more about my work!</div>
+          <div className="sloganItem3">
+            Hi! Welcome to my portfolio. I'm a full-stack web developer, and I'm
+            excited to showcase my skills and projects here. Feel free to
+            explore and learn more about my work!
+          </div>
         </div>
       </div>
 

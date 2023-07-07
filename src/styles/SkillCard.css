@@ -72,7 +72,7 @@ button,
 
 .skillCard {
   width: 400px;
-  height: 550px;
+  height: 450px;
   padding: 30px 20px;
   background-color: white;
   border-radius: 30px;
@@ -101,12 +101,12 @@ button,
 
 .skillTitle {
   font-family: "Open Sans", sans-serif;
-  width: 350px;
+  width: 100%;
   text-align: center;
 }
 
 .skillsList {
-  width: 350px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

@@ -84,7 +84,7 @@
 }
 
 .custom-shape-divider-bottom-1688650861 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 @media (max-width: 950px) {
@@ -94,29 +94,28 @@
 }
 
 @media (max-width: 750px) {
-
   .projectCardContainer {
     padding: 0 20px 200px 20px;
     gap: 40px;
   }
- 
-.projectCard {
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  aspect-ratio: 1/1;
-  height: auto;
-}
 
-.workIllustration{
-  height: 100%;
-  width: 80%;
-  margin: 20px 0;
-}
+  .projectCard {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    height: auto;
+  }
 
-.projectCard:hover {
-  transform: scale(1);
-  cursor: pointer;
-}
+  .workIllustration {
+    height: 100%;
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .projectCard:hover {
+    transform: scale(1);
+    cursor: pointer;
+  }
 }

@@ -89,12 +89,9 @@ export default function Contact() {
             </button>
           </form>
         </div> */}
-
-
-
       </div>
       <div className="blob3"></div>
-        <div className="blob4"></div>
+      <div className="blob4"></div>
     </div>
   );
 }

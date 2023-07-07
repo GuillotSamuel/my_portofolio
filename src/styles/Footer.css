@@ -74,7 +74,8 @@ button,
   gap: 4vw;
 }
 
-.footerText, .footerLinks {
+.footerText,
+.footerLinks {
   font-family: "Open Sans", sans-serif;
   background: linear-gradient(120deg, #95ccff 0%, #381fb4 100%);
   background-clip: border-box;

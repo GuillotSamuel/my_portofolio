@@ -13,7 +13,8 @@
   gap: 4vw;
 }
 
-.footerText, .footerLinks {
+.footerText,
+.footerLinks {
   font-family: $accentuation-font;
   background: linear-gradient(120deg, $lightMain-color 0%, $main-color 100%);
   background-clip: border-box;
@@ -34,8 +35,6 @@
 }
 
 @media (max-width: 1000px) {
-
-
   .footerContainer {
     flex-direction: column;
     align-items: center;
