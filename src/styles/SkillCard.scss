@@ -53,3 +53,20 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media (max-width: 951px) {
+    .skillCardContainer {
+        padding: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .skillCardContainer {
+        padding: 0 20px 100px 20px;
+        gap: 0;
+    }
+    .skillCard {
+        width: 100%;
+    }
+}

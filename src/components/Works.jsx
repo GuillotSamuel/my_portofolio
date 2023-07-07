@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard.jsx";
 
 export default function Works() {
   return (
-    <div className="worksContainer generalContentContainer">
+    <div className="worksContainer generalContentContainer" id="works">
       <h1>Projects</h1>
       <ProjectCard />
       <div class="custom-shape-divider-bottom-1688650861">

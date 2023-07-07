@@ -1,6 +1,7 @@
 $main-color: #381fb4;
 $lightMain-color: #95ccff;
 $secondary-color: #b8c0fb;
+$lightSecondary-color: #d0d5fa;
 $third-color: #f2f2f2;
 $white-color: white;
 
@@ -37,6 +38,7 @@ h1 {
   font-size: 50px;
   position: relative;
   z-index: 100;
+  padding: 20px;
 }
 
 h1, h2 {
@@ -73,4 +75,11 @@ button, .button2 {
 .fa-brands:hover {
   box-shadow: -8px -8px 8px #ffffff7a, 
   8px 8px 8px #a9a9aa7a;
+}
+
+
+@media (max-width: 950px) {
+  .generalContentContainer {
+    padding: 0;
+  }
 }

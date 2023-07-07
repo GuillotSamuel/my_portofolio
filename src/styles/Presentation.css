@@ -21,6 +21,7 @@ h1 {
   font-size: 50px;
   position: relative;
   z-index: 100;
+  padding: 20px;
 }
 
 h1, h2 {
@@ -58,9 +59,14 @@ button, .button2 {
   box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.4784313725), 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
 }
 
+@media (max-width: 950px) {
+  .generalContentContainer {
+    padding: 0;
+  }
+}
 .presentationContainer {
   padding: 100px 6vw;
-  background: #b8c0fb;
+  background: #d0d5fa;
   background-image: url(../assets/backgrounds/noise.png);
   width: 100%;
   display: flex;
@@ -74,7 +80,6 @@ button, .button2 {
 }
 
 .slogan {
-  font-size: 100px;
   width: 100%;
 }
 
@@ -139,4 +144,62 @@ button, .button2 {
   top: 15%;
   left: 35%;
   z-index: 2;
+}
+
+@media (max-width: 1410px) {
+  .presentationContainer {
+    flex-direction: column;
+    height: auto;
+  }
+  .sloganContainer {
+    height: 500px;
+    width: 100%;
+  }
+  .portraitContainer {
+    width: 100%;
+    justify-content: right;
+    padding-right: 10%;
+  }
+  .blob5 {
+    top: 29%;
+    right: -5%;
+    left: auto;
+  }
+}
+@media (max-width: 900px) {
+  .sloganItem1 {
+    font-size: 100px;
+  }
+  .sloganItem2 {
+    top: 85px;
+    left: 100px;
+  }
+}
+@media (max-width: 770px) {
+  .portraitContainer {
+    justify-content: center;
+  }
+}
+@media (max-width: 570px) {
+  .sloganItem1 {
+    font-size: 70px;
+  }
+  .sloganItem2 {
+    font-size: 40px;
+    top: 55px;
+    left: 70px;
+  }
+}
+@media (max-width: 415px) {
+  .sloganItem1 {
+    font-size: 55px;
+  }
+  .sloganItem2 {
+    font-size: 27px;
+    top: 50px;
+    left: 80px;
+  }
+  .sloganItem3 {
+    top: 140px;
+  }
 }/*# sourceMappingURL=Presentation.css.map */

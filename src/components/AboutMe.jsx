@@ -4,7 +4,7 @@ import CVFile from "../assets/documents/CV_SG.pdf";
 
 export default function AboutMe() {
   return (
-    <div className="aboutMeContainer generalContentContainer">
+    <div className="aboutMeContainer generalContentContainer" id="aboutMe">
       <h1>About me</h1>
       <div className="aboutMeText">
         <p className="sloganText1">

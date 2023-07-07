@@ -21,6 +21,7 @@ h1 {
   font-size: 50px;
   position: relative;
   z-index: 100;
+  padding: 20px;
 }
 
 h1, h2 {
@@ -58,6 +59,11 @@ button, .button2 {
   box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.4784313725), 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
 }
 
+@media (max-width: 950px) {
+  .generalContentContainer {
+    padding: 0;
+  }
+}
 .footerContainer {
   display: flex;
   flex-direction: row;
@@ -89,4 +95,14 @@ button, .button2 {
 
 .footerText {
   font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerText {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=Footer.css.map */

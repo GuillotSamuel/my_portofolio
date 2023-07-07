@@ -1,75 +1,112 @@
 @import "./General.scss";
 
 .contactContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    padding: 200px 0;
-    position: relative;
-    z-index: 100;
-
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 200px 0;
+  position: relative;
+  z-index: 100;
 }
 
 .contactContainer3 {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4vw;
-    font-family: $accentuation-font;
-    position: relative;
-    z-index: 100;
-
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  font-family: $accentuation-font;
+  position: relative;
+  z-index: 100;
 }
 
 .contactSlogan {
-    font-weight: 700;
-    z-index: 100;
-    position: relative;
-
+  font-weight: 700;
+  z-index: 100;
+  font-size: 70px;
+  position: relative;
+  background: linear-gradient(120deg, $lightMain-color 0%, $main-color 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 100px;
+  text-align: center;
 }
 
 .emailLink {
-    color: $font-color;
-    z-index: 100;
-    position: relative;
-
+  color: $font-color;
+  z-index: 100;
+  position: relative;
+  background: $main-color;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .emailLink:hover {
-    color: $main-color;
-    z-index: 100;
-    position: relative;
+  background: $secondary-color;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 100;
+  position: relative;
 }
 
 .blob3 {
-    height: 30%;
-    aspect-ratio: 1/1;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: repeat;
-    background-image: url(../assets/backgrounds/blob3.png);
-    opacity: 0.3;
-    position: absolute;
-    top: 70%;
-    left: 68%;
-    z-index: 2;
-    transform: rotate(180deg);
+  height: 30%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url(../assets/backgrounds/blob3.png);
+  opacity: 0.3;
+  position: absolute;
+  top: 70%;
+  left: 68%;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+
+.blob4 {
+  height: 120%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url(../assets/backgrounds/blob4.png);
+  opacity: 0.3;
+  position: absolute;
+  top: 0%;
+  left: 35%;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1500px) {
+  .blob3 {
+    left: 70%;
+  }
+  .blob4 {
+    top: -20%;
+    left: 20%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contactSlogan {
+    font-size: 40px;
+    margin: 0 10px;
   }
 
-  .blob4 {
-    height: 120%;
-    aspect-ratio: 1/1;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: repeat;
-    background-image: url(../assets/backgrounds/blob4.png);
-    opacity: 0.3;
-    position: absolute;
-    top: 0%;
-    left: 35%;
-    z-index: 2;
-    transform: rotate(180deg);
+  .blob3 {
+    height: 20%;
+    left: 50%;
   }
+  .blob4 {
+    height: 50%;
+    top: 20%;
+    left: 20%;
+  }
+}

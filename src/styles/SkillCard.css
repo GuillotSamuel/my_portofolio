@@ -21,6 +21,7 @@ h1 {
   font-size: 50px;
   position: relative;
   z-index: 100;
+  padding: 20px;
 }
 
 h1, h2 {
@@ -58,6 +59,11 @@ button, .button2 {
   box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.4784313725), 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
 }
 
+@media (max-width: 950px) {
+  .generalContentContainer {
+    padding: 0;
+  }
+}
 .skillCardContainer {
   display: flex;
   flex-direction: row;
@@ -108,4 +114,19 @@ button, .button2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media (max-width: 951px) {
+  .skillCardContainer {
+    padding: 100px;
+  }
+}
+@media (max-width: 700px) {
+  .skillCardContainer {
+    padding: 0 20px 100px 20px;
+    gap: 0;
+  }
+  .skillCard {
+    width: 100%;
+  }
 }/*# sourceMappingURL=SkillCard.css.map */

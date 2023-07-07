@@ -30,9 +30,9 @@ export default function Contact() {
   const email = "samuelguillot75@gmail.com";
 
   return (
-    <div className="contactContainer">
+    <div className="contactContainer" id="contact">
       <div className="contactContainer3">
-        <span classname="contactSlogan">
+        <span className="contactSlogan">
           Feel free to contact me{/*   with this form or */} by{" "}
           <a href={`mailto:${email}`} className="emailLink">
             email

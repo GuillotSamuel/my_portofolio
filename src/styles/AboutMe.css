@@ -21,6 +21,7 @@ h1 {
   font-size: 50px;
   position: relative;
   z-index: 100;
+  padding: 20px;
 }
 
 h1, h2 {
@@ -58,6 +59,11 @@ button, .button2 {
   box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.4784313725), 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
 }
 
+@media (max-width: 950px) {
+  .generalContentContainer {
+    padding: 0;
+  }
+}
 .aboutMeContainer {
   display: flex;
   flex-direction: column;
@@ -149,4 +155,47 @@ button, .button2 {
 
 .custom-shape-divider-bottom-1688597213 .shape-fill {
   fill: #f2f2f2;
+}
+
+@media (max-width: 1000px) {
+  .blob1 {
+    height: 90%;
+  }
+  .aboutMeFooterContainer {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 700px) {
+  .aboutMeContainer {
+    gap: 40px;
+  }
+  .blob1 {
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  .sloganText1 {
+    font-size: 20px;
+    width: 100%;
+    padding: 0;
+  }
+  .sloganText2 {
+    font-size: 16px;
+  }
+  #cvButton {
+    font-size: 20px;
+  }
+  .aboutMeText {
+    padding: 0 20px;
+  }
+  .aboutMeFooterContainer {
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 700px) {
+  .blob1 {
+    top: 0;
+    width: 100%;
+    height: 90%;
+  }
 }/*# sourceMappingURL=AboutMe.css.map */

@@ -12,17 +12,17 @@ export default function Header() {
         </a>
         <ul>
           <li>
-            <a href="#" className="headerButton">
+            <a href="#aboutMe" className="headerButton">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="headerButton">
+            <a href="#works" className="headerButton">
               Projects
             </a>
           </li>
           <li>
-            <a href="#" className="headerButton">
+            <a href="#contact" className="headerButton">
               Contact
             </a>
           </li>

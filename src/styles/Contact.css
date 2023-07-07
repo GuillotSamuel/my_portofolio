@@ -21,6 +21,7 @@ h1 {
   font-size: 50px;
   position: relative;
   z-index: 100;
+  padding: 20px;
 }
 
 h1, h2 {
@@ -58,6 +59,11 @@ button, .button2 {
   box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.4784313725), 8px 8px 8px rgba(169, 169, 170, 0.4784313725);
 }
 
+@media (max-width: 950px) {
+  .generalContentContainer {
+    padding: 0;
+  }
+}
 .contactContainer {
   display: flex;
   flex-direction: column;
@@ -83,17 +89,31 @@ button, .button2 {
 .contactSlogan {
   font-weight: 700;
   z-index: 100;
+  font-size: 70px;
   position: relative;
+  background: linear-gradient(120deg, #95ccff 0%, #381fb4 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 100px;
+  text-align: center;
 }
 
 .emailLink {
   color: black;
   z-index: 100;
   position: relative;
+  background: #381fb4;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .emailLink:hover {
-  color: #381fb4;
+  background: #b8c0fb;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   z-index: 100;
   position: relative;
 }
@@ -126,4 +146,29 @@ button, .button2 {
   left: 35%;
   z-index: 2;
   transform: rotate(180deg);
+}
+
+@media (max-width: 1500px) {
+  .blob3 {
+    left: 70%;
+  }
+  .blob4 {
+    top: -20%;
+    left: 20%;
+  }
+}
+@media (max-width: 1000px) {
+  .contactSlogan {
+    font-size: 40px;
+    margin: 0 10px;
+  }
+  .blob3 {
+    height: 20%;
+    left: 50%;
+  }
+  .blob4 {
+    height: 50%;
+    top: 20%;
+    left: 20%;
+  }
 }/*# sourceMappingURL=Contact.css.map */

@@ -2,7 +2,7 @@
 
 .presentationContainer {
   padding: 100px 6vw;
-  background: $secondary-color;
+  background: $lightSecondary-color;
   background-image: url(../assets/backgrounds/noise.png);
   width: 100%;
   display: flex;
@@ -16,7 +16,6 @@
 }
 
 .slogan {
-  font-size: 100px;
   width: 100%;
 }
 
@@ -33,7 +32,8 @@
   background: linear-gradient(120deg, $lightMain-color 0%, $main-color 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  position: absolute;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
   top: 145px;
   left: 50px;
   font-size: 55px;
@@ -78,4 +78,73 @@
   top: 15%;
   left: 35%;
   z-index: 2;
+}
+
+@media (max-width: 1410px) {
+  .presentationContainer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sloganContainer {
+    height: 500px;
+    width: 100%;
+  }
+
+  .portraitContainer {
+    width: 100%;
+    justify-content: right;
+    padding-right: 10%;
+  }
+
+  .blob5 {
+    top: 29%;
+    right: -5%;
+    left: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .sloganItem1 {
+    font-size: 100px;
+  }
+
+  .sloganItem2 {
+    top: 85px;
+    left: 100px;
+  }
+}
+
+@media (max-width: 770px) {
+  .portraitContainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 570px) {
+  .sloganItem1 {
+    font-size: 70px;
+  }
+
+  .sloganItem2 {
+    font-size: 40px;
+    top: 55px;
+    left: 70px;
+  }
+}
+
+@media (max-width: 415px) {
+  .sloganItem1 {
+    font-size: 55px;
+  }
+
+  .sloganItem2 {
+    font-size: 27px;
+    top: 50px;
+    left: 80px;
+  }
+
+  .sloganItem3 {
+    top: 140px;
+  }
 }
