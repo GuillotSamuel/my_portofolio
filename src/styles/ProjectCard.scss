@@ -10,6 +10,7 @@
   padding: 80px;
   padding-bottom: 200px;
   justify-content: center;
+  position: relative;
 }
 
 .projectCard {
@@ -55,8 +56,9 @@
 .workTitle {
   z-index: 10;
   font-family: $accentuation-font;
-  font-size: 6vw;
+  font-size: clamp(20px, 80px, 6vw);
   text-transform: uppercase;
+  max-width: 600px;
 }
 
 .workCategory {
@@ -85,6 +87,38 @@
 
 .custom-shape-divider-bottom-1688650861 .shape-fill {
   fill: #ffffff;
+}
+
+.overlayProjectCard {
+  position: absolute;
+  background-color: $main-color;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  color: $white-color;
+  padding: 30% 40px 0 40px;
+
+  .overlayContent {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  p {
+    width: 50%;
+    text-align: left;
+  }
+  a {
+    color: $secondary-color;
+  }
+
+  a:hover {
+    color: $lightMain-color;
+  }
 }
 
 @media (max-width: 950px) {

@@ -10,9 +10,8 @@
       "React",
       "SASS",
       "Javascript",
-      "Bootstrap",
-      "Tailwind"
-    ]
+      "Bootstrap"    ],
+    "logos": ["htmlLogo.png","cssLogo.png","reactLogo.png","sassLogo.png","jsLogo.png","bootstrapLogo.png","tailwindLogo.png"]
   },
   {
     "id": "02",
@@ -26,7 +25,8 @@
       "PHP",
       "Javascript",
       "C"
-    ]
+    ],
+    "logos": ["nodeJsLogo.png","mySqlLogo.png","mongoDBLogo.png","phpLogo.png","cLogo.png"]
   },
   {
     "id": "03",
@@ -38,6 +38,7 @@
       "Accounting",
       "Auditing",
       "Banking"
-    ]
+    ],
+    "logos": ["htmlLogo.png"]
   }
 ]

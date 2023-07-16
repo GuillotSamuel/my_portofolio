@@ -14,7 +14,6 @@ export default function SkillCard() {
               <h2 className="skillTitle">{skill.title}</h2>
 
               <p>{skill.summary}</p>
-
               <ul className="skillsList">
                 {skill.skills.map((skill2, index) => (
                   <li className="skill" key={index}>

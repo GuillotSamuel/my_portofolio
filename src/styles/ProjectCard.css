@@ -71,6 +71,7 @@ button,
   padding: 80px;
   padding-bottom: 200px;
   justify-content: center;
+  position: relative;
 }
 
 .projectCard {
@@ -117,8 +118,9 @@ button,
 .workTitle {
   z-index: 10;
   font-family: "Open Sans", sans-serif;
-  font-size: 6vw;
+  font-size: clamp(20px, 80px, 6vw);
   text-transform: uppercase;
+  max-width: 600px;
 }
 
 .workCategory {
@@ -147,6 +149,35 @@ button,
 
 .custom-shape-divider-bottom-1688650861 .shape-fill {
   fill: #ffffff;
+}
+
+.overlayProjectCard {
+  position: absolute;
+  background-color: #381fb4;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  color: white;
+  padding: 30% 40px 0 40px;
+}
+.overlayProjectCard .overlayContent {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  justify-content: flex-end;
+  width: 100%;
+}
+.overlayProjectCard p {
+  width: 50%;
+  text-align: left;
+}
+.overlayProjectCard a {
+  color: #b8c0fb;
+}
+.overlayProjectCard a:hover {
+  color: #95ccff;
 }
 
 @media (max-width: 950px) {
