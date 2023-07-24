@@ -28,15 +28,5 @@
     "year": "2023",
     "websiteLink": "https://github.com/GuillotSamuel/nina-carducci.github.io-master",
     "category": "Optimisation Referencement Accessibility "
-  },
-  {
-    "id": "04",
-    "title": "test2",
-    "cover": "kasa1",
-    "illustration": ["kasa1", "kasa2", "kasa3"],
-    "summary": "Developing the frontend of the Kasa website using React and Sass technologies. The website is designed to be responsive.",
-    "year": "2023",
-    "websiteLink": "linkTest",
-    "category": "React Sass"
   }
 ]

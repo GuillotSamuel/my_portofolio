@@ -73,6 +73,7 @@ header {
   width: 100%;
   z-index: 9999;
   background-color: #381fb4;
+  padding-bottom: 12px;
 }
 
 .headerContainer {
